@@ -45,15 +45,15 @@
                 raise_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |  ~  |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  DEL |
-// | SHFT |  `  |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |      |
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |WhlUp| LMB | RMB | MMB | DEL | BKSP |
+// | CTRL | ^   |  &  |  *  |  (  |  )  |   |WhlDn|  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |  _  |     |     |     |     |   |  -  |  +  |  {  |  }  | "|" |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR &kp BKSP
-   &kp LCTRL &kp TILDE   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &kp DEL
-   &kp LSHFT &kp GRAVE   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE &trans
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+   &kp  TAB  &kp EXCL  &kp AT   &kp HASH          &kp DLLR  &kp PRCNT                &mwh SCROLL_UP &mkp LCLK  &mkp RCLK  &kp F24  &kp DEL  &kp BSPC
+   &kp LCTRL &kp CARET &kp AMPS &kp KP_MULTIPLY   &kp LPAR  &kp RPAR                 &mwh SCROLL_DOWN &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &kp UNDER &trans   &trans            &trans    &trans                   &kp MINUS &kp PLUS  &kp LBRC &kp RBRC &kp PIPE &trans
+                    	        &kp LGUI          &trans    &kp SPACE                &kp RET   &trans    &kp RALT
                         >;
                 };
         };
