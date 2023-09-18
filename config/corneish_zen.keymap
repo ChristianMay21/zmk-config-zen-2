@@ -25,7 +25,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &lt 2 F11 &kp RALT
+                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mt 2 F11 &kp RALT
                         >;
                 };
                 lower_layer {
@@ -51,7 +51,7 @@
 // | SHFT |  _  |     |     |     |     |   |  -  |  +  |  {  |  }  | "|" |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL  &kp AT   &kp HASH          &kp DLLR  &kp PRCNT                &mwh SCROLL_UP &mkp LCLK  &mkp RCLK  &kp F24  &kp DEL  &kp BSPC
+   &kp  TAB  &kp EXCL  &kp AT   &kp HASH          &kp DLLR  &kp PRCNT                &mwh SCROLL_UP &mkp LCLK  &mkp RCLK  &kp F12  &kp DEL  &kp BSPC
    &kp LCTRL &kp CARET &kp AMPS &kp KP_MULTIPLY   &kp LPAR  &kp RPAR                 &mwh SCROLL_DOWN &kp EQUAL &kp LBKT &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &kp UNDER &trans   &trans            &trans    &trans                   &kp MINUS &kp PLUS  &kp LBRC &kp RBRC &kp PIPE &trans
                     	        &kp LGUI          &trans    &kp SPACE                &kp RET   &trans    &kp RALT
